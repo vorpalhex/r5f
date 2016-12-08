@@ -1,0 +1,19 @@
+{
+  "title": "Equipment Schema",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "cost": {
+      "type": "number"
+    },
+    "description": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "required": ["name", "description"]
+}
